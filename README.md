@@ -2,25 +2,14 @@
 
 **Autonomous crypto trading system powered by evolutionary reinforcement learning.**
 
-Evolutis uses a population of PPO (Proximal Policy Optimization) agents that evolve across generations through a genetic algorithm. The best-performing agents are selected, mutated, and recombined to produce increasingly effective trading strategies across 9 cryptocurrency pairs.
+Evolutis uses agents that they use complex multiple domain methods. The best-performing agents are selected and recombined to produce increasingly effective trading strategies across cryptocurrency pairs.
 
 ---
-
-## How It Works
-
-### Evolutionary Training Pipeline
-
-1. **Population Initialization** — A diverse population of RL agents is spawned, each with randomized hyperparameters and trading rules
-2. **Training** — Each agent is trained via PPO on historical 1-minute OHLCV data across 9 crypto pairs (BTC, ETH, BNB, ADA, XRP, DOGE, DOT, LTC, LINK)
-3. **Evaluation** — Agents are backtested on held-out data; portfolio performance, risk metrics, and consistency are measured
-4. **Selection & Evolution** — Top performers are selected. Their hyperparameters and trading rules are crossed over and mutated to create the next generation
-5. **Repeat** — The cycle continues for 15+ generations, progressively improving agent quality
 
 ### Trading Architecture
 
 - **Environment**: Custom Gymnasium environment simulating multi-asset portfolio management with realistic transaction fees, slippage, and position sizing constraints
-- **Observation Space**: OHLCV data enriched with technical indicators (SMA, RSI, EMA) across multiple timeframes (10, 20, 50, 100, 1000 periods)
-- **Action Space**: 303 discrete actions per cryptocurrency — granular sell/hold/buy decisions with 150 position-sizing steps
+- **Observation Space**: OHLCV data enriched with technical indicators (SMA, RSI, EMA) across multiple timeframes
 - **Trading Rules**: Each agent evolves its own set of trading filters (RSI thresholds, SMA crossovers, BTC correlation stops, trailing stops, profit-taking rules)
 
 ### Execution Modes
@@ -89,10 +78,9 @@ All 6 top-performing agents achieved positive returns over the 365-day backtest 
 ## Tech Stack
 
 - **RL Framework**: Stable-Baselines3 (PPO)
-- **Environment**: Gymnasium (custom multi-asset trading env)
+- **Environment**: Gymnasium (custom trading env)
 - **Data**: Binance API via ccxt (1-minute OHLCV candles)
 - **Indicators**: ta (Technical Analysis library)
-- **Evolution**: Custom genetic algorithm for hyperparameter and trading rule optimization
 
 ---
 
