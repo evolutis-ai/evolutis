@@ -33,7 +33,7 @@ Evolutis uses agents that they use complex multiple domain methods. The best-per
 
 ![Summary Table](results/backtests/summary_table.png)
 
-All 6 top-performing agents achieved positive returns over the 365-day backtest period (Jan 2025 — Jan 2026), with the best agent returning **+134.5%**.
+All 6 top-performing agents achieved positive returns over the 365-day backtest period (Jan 2025 — Jan 2026), while BTC buy-and-hold returned **-8.2%%** over the same period. The best agent returned **+134.5%%** — an alpha of **+142.7%%** over simply holding Bitcoin.
 
 ### Individual Agent Performance
 
