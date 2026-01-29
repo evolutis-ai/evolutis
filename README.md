@@ -23,6 +23,16 @@ Evolutis uses agents that they use complex multiple domain methods. The best-per
 
 ---
 
+## Live Paper Trading
+
+> Real-time paper trading with simulated execution on live Binance market data.
+
+![Live Dashboard](data/live/dashboard_screenshot.png)
+
+<!-- [View Interactive Dashboard](https://your-streamlit-url.streamlit.app) -->
+
+---
+
 ## Results
 
 ### 365-Day Backtest — All Top Performers
@@ -33,7 +43,7 @@ Evolutis uses agents that they use complex multiple domain methods. The best-per
 
 ![Summary Table](results/backtests/summary_table.png)
 
-All 6 top-performing agents achieved positive returns over the 365-day backtest period (Jan 2025 — Jan 2026), while BTC buy-and-hold returned **-8.2%%** over the same period. The best agent returned **+134.5%%** — an alpha of **+142.7%%** over simply holding Bitcoin.
+All 6 top-performing agents achieved positive returns over the 365-day backtest period (Jan 2025 — Jan 2026), while BTC buy-and-hold returned **-8.2%** over the same period. The best agent returned **+134.5%** — an alpha of **+142.7%** over simply holding Bitcoin.
 
 ### Individual Agent Performance
 
@@ -81,6 +91,7 @@ All 6 top-performing agents achieved positive returns over the 365-day backtest 
 - **Environment**: Gymnasium (custom trading env)
 - **Data**: Binance API via ccxt (1-minute OHLCV candles)
 - **Indicators**: ta (Technical Analysis library)
+- **Dashboard**: Streamlit + Plotly
 
 ---
 
