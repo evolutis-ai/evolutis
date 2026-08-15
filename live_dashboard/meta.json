@@ -1,0 +1,24 @@
+{
+  "updated_utc": "2026-10-02T22:46:26+00:00",
+  "live_net": 0.0,
+  "live_pnl": -24.04,
+  "live_ledger_pnl": -17.4,
+  "live_divergence": -6.64,
+  "live_wallet_delta": -24.04,
+  "paper_net": 0.0,
+  "paper_pnl": 0.0,
+  "total_net": 0.0,
+  "total_pnl": -24.04,
+  "bots": [
+    {
+      "name": "BAND \ud83d\udcb0 LIVE \u2014 MAKER, BTC only, 2c under fair, band 0.60-0.90, 5-share venue minimum. Makers pay NO fee (takerOnly=true) \u2014 the only route that avoids the toll that kills every taking arm. Band verified 2026-09-26: in-band +3.01pp t=+6.24 vs +0.03pp t=+0.13 outside.",
+      "paper": false,
+      "online": true,
+      "balance": 0.0,
+      "net_value": 0.0,
+      "pnl": -24.04,
+      "n_closed": 21,
+      "win_rate": 52.4
+    }
+  ]
+}

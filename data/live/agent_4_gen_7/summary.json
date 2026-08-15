@@ -1,0 +1,22 @@
+{
+  "session_id": "20260210_005136",
+  "agent_id": 4,
+  "start_time": "2026-02-10T00:51:40.589044",
+  "end_time": "2026-02-10T00:51:51.928616",
+  "duration_seconds": 11.339572,
+  "initial_capital": 10000.0,
+  "final_portfolio_value": 10000.0,
+  "final_buyhold_value": 10000.0,
+  "total_return_pct": 0.0,
+  "buyhold_return_pct": 0.0,
+  "outperformance_pct": 0.0,
+  "total_steps": 0,
+  "total_trades": 0,
+  "winning_trades": 0,
+  "losing_trades": 0,
+  "win_rate_pct": 0,
+  "final_cash": 10000.0,
+  "final_positions": {},
+  "fee_rate": 0.001,
+  "slippage": 0.0005
+}
