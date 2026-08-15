@@ -1,0 +1,17 @@
+{
+  "session_id": "20260208_034740",
+  "agent_id": 12,
+  "mode": "testnet_dry_run",
+  "start_time": "2026-02-08T03:47:45.541009",
+  "end_time": "2026-02-08T03:47:45.550004",
+  "duration_seconds": 0.008995,
+  "initial_capital": 10000.0,
+  "final_portfolio_value": 10000.0,
+  "final_buyhold_value": 10000.0,
+  "total_return_pct": 0.0,
+  "buyhold_return_pct": 0.0,
+  "total_steps": 0,
+  "total_trades": 0,
+  "winning_trades": 0,
+  "losing_trades": 0
+}

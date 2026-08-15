@@ -1,0 +1,17 @@
+{
+  "session_id": "20260210_005136",
+  "agent_id": 4,
+  "mode": "testnet",
+  "start_time": "2026-02-10T00:51:40.590057",
+  "end_time": "2026-02-10T00:51:52.573280",
+  "duration_seconds": 11.983223,
+  "initial_capital": 10000.0,
+  "final_portfolio_value": 10000.0,
+  "final_buyhold_value": 10000.0,
+  "total_return_pct": 0.0,
+  "buyhold_return_pct": 0.0,
+  "total_steps": 0,
+  "total_trades": 0,
+  "winning_trades": 0,
+  "losing_trades": 0
+}
