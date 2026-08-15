@@ -1,0 +1,52 @@
+{
+  "updated_utc": "2026-09-19T20:36:12+00:00",
+  "live_net": 81.68,
+  "live_pnl": -31.72,
+  "live_wallet_delta": -31.72,
+  "paper_net": 269.87,
+  "paper_pnl": -30.13,
+  "total_net": 81.68,
+  "total_pnl": -31.72,
+  "bots": [
+    {
+      "name": "CHEAP \ud83d\udd2c ask[0.55,0.80) INSTRUMENT for PREREG_basis \u2014 READ 1 of 2 on 2026-09-17 at n=1,750: INCONCLUSIVE (-3.0pp z=-1.32, sign negative in 4 of 4 sub-bands and 9 of 13 buckets). \u26a0\ufe0f The pre-registered extension to n=3,500 gives only z=-1.87; the bar needs n~14,900, i.e. 24 more days \u2014 so that read cannot settle it. Still collecting. \u26a0\ufe0f EXPECTED TO LOSE (this band ran -0.1223/trade). It exists ONLY to produce verified fills in UNDECIDED markets, where Binance and Chainlink disagree on direction 11.7% of the time vs 0.1% in decided ones. Its Net is not a result.",
+      "paper": true,
+      "online": true,
+      "balance": -114.57,
+      "net_value": -114.57,
+      "pnl": -214.57,
+      "n_closed": 3918,
+      "win_rate": 65.7
+    },
+    {
+      "name": "W15 \ud83d\udd2c 15m MEASUREMENT ARM (PAPER) \u2014 is the -0.069/trade of 5m a property of 5m, or of TAKING? Permissive collector gates at window_secs=900, timing scaled 3x, honest recal. Option 7 could NOT be answered from history: only 171 rows of every 15m arm ever run logged size_at_ask. NOT a hypothesis - read it with the within-price screen.",
+      "paper": true,
+      "online": true,
+      "balance": 101.5,
+      "net_value": 101.5,
+      "pnl": 1.5,
+      "n_closed": 764,
+      "win_rate": 78.1
+    },
+    {
+      "name": "L03 \u00b7 \u23f9 STOPPED 2026-09-10 \u2014 THIS NET IS FINAL, NOT LIVE. No real money is trading. Halted after PREREG_askband read REVERT at n=124 (predicted +0.0746, delivered -0.0536); the signal is EMPTY at fixed price (6 features, all flat, ev z=+0.10); the gap is SELECTION not mispricing (missed +2.7pp vs filled -3.4pp, z=+4.37); still -0.0430/trade after the calibration fix. Lifetime -$31.7 of real money. Stopped with zero open positions.",
+      "paper": false,
+      "online": true,
+      "balance": 81.68,
+      "net_value": 81.68,
+      "pnl": -31.72,
+      "n_closed": 439,
+      "win_rate": 68.3
+    },
+    {
+      "name": "LOWM \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (no fill model). It is an INSTRUMENT for the ev wall, its own PnL is not the point \u00b7 5m margin 0.005 (INSTRUMENT: looks BELOW the ev=0.02 censoring wall; its own PnL is expected to be bad; PREREG_lowmargin review 09-24)",
+      "paper": true,
+      "online": true,
+      "balance": 282.94,
+      "net_value": 282.94,
+      "pnl": 182.94,
+      "n_closed": 2226,
+      "win_rate": 80.2
+    }
+  ]
+}
