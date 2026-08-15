@@ -1,0 +1,32 @@
+{
+  "session_id": "20260209_235915",
+  "agent_id": 12,
+  "start_time": "2026-02-09T23:59:20.085113",
+  "end_time": "2026-02-10T00:41:47.690398",
+  "duration_seconds": 2547.605285,
+  "initial_capital": 10000.0,
+  "final_portfolio_value": 10013.819609657452,
+  "final_buyhold_value": 9995.58492556082,
+  "total_return_pct": 0.1381960965745277,
+  "buyhold_return_pct": -0.04415074439181321,
+  "outperformance_pct": 0.18242738401434977,
+  "total_steps": 24,
+  "total_trades": 43,
+  "winning_trades": 0,
+  "losing_trades": 0,
+  "win_rate_pct": 0,
+  "final_cash": 836.9362643092012,
+  "final_positions": {
+    "BTC/FDUSD": 0.026929259484081626,
+    "ETH/FDUSD": 0.5804198447104639,
+    "BNB/FDUSD": 1.361558118012759,
+    "ADA/FDUSD": 0.0,
+    "XRP/FDUSD": 1179.5876713152988,
+    "DOGE/FDUSD": 7102.425119424119,
+    "DOT/FDUSD": 1590.1847219346648,
+    "LTC/FDUSD": 0.0,
+    "LINK/FDUSD": 82.66133138886231
+  },
+  "fee_rate": 0.001,
+  "slippage": 0.0005
+}

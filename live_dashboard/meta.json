@@ -1,0 +1,112 @@
+{
+  "updated_utc": "2026-09-07T02:02:24+00:00",
+  "live_net": 81.47,
+  "live_pnl": -31.93,
+  "live_wallet_delta": -31.93,
+  "paper_net": 1740.86,
+  "paper_pnl": 830.0,
+  "total_net": 81.47,
+  "total_pnl": -31.93,
+  "bots": [
+    {
+      "name": "R1 \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (~65% of its fills had no size behind them; obtainable-only is -0.07/tr, matching LIVE). Kept as the research baseline \u00b7 5m RELFLOOR (relative sigma floor \u2014 the fleet's BEST arm; keeps trading when vol collapses and absolute-floor arms go silent)",
+      "paper": true,
+      "online": true,
+      "balance": 471.92,
+      "net_value": 471.92,
+      "pnl": 371.92,
+      "n_closed": 4998,
+      "win_rate": 76.3
+    },
+    {
+      "name": "R4 \u26a0\ufe0fPRICE-ONLY FILL MODEL \u2014 checks the ask survived the flight but NOT that size existed; control for DEPTH \u00b7 5m RELFLOOR-REALISTIC (R1 + real fill rule: wait 600ms, re-read book, fill only if the ask survived \u2014 R1 minus R4 = the live discount)",
+      "paper": true,
+      "online": true,
+      "balance": 212.47,
+      "net_value": 212.47,
+      "pnl": 112.47,
+      "n_closed": 2728,
+      "win_rate": 76.9
+    },
+    {
+      "name": "L03 \u00b7 \ud83d\udcb5 5m BREADTH-3 PICK-ONE rel_frac=0.85 LIVE (0xE035; 6 coins, leaders first, 1 snipe/window, only windows where \u22653 coins signal; breadth is monotone in paper t=+5.70 AND in live fills; inherits R1 recal; NO capital floor)",
+      "paper": false,
+      "online": true,
+      "balance": 81.47,
+      "net_value": 81.47,
+      "pnl": -31.93,
+      "n_closed": 399,
+      "win_rate": 66.9
+    },
+    {
+      "name": "TWIN \u2705REALISTIC FILLS \u2014 Net is REAL (size-checked), NOT yet PROVEN \u2014 read n and t \u00b7 L03 PAPER TWIN (same gates as LIVE + depth fill model; L03 minus TWIN = live execution cost; TWIN minus R1 = the fiction premium)",
+      "paper": true,
+      "online": true,
+      "balance": 96.76,
+      "net_value": 96.76,
+      "pnl": -3.24,
+      "n_closed": 85,
+      "win_rate": 82.4
+    },
+    {
+      "name": "DEPTH \u2705REALISTIC FILLS \u2014 Net is REAL (size-checked), NOT yet PROVEN \u2014 read n and t \u00b7 5m R1 + SIZE-CHECKING FILL (first paper arm whose PnL needs no obtainability filter; PREREG_depthfill review 09-17)",
+      "paper": true,
+      "online": true,
+      "balance": 116.67,
+      "net_value": 116.67,
+      "pnl": 16.67,
+      "n_closed": 413,
+      "win_rate": 75.8
+    },
+    {
+      "name": "FEEX \u2705REALISTIC FILLS \u2014 Net is REAL (size-checked), NOT yet PROVEN \u2014 read n and t \u00b7 5m FEE-CROSS ask[0.90,0.98): the favourite-longshot bias GROWS with p while the fee 0.072p(1-p) COLLAPSES, so they cross at the deep end. PREREG_feecross_2026-09-06, n-gated at 1385, bar 3.77",
+      "paper": true,
+      "online": true,
+      "balance": 99.34,
+      "net_value": 99.34,
+      "pnl": -0.66,
+      "n_closed": 5,
+      "win_rate": 80.0
+    },
+    {
+      "name": "LOWM \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (no fill model). It is an INSTRUMENT for the ev wall, its own PnL is not the point \u00b7 5m margin 0.005 (INSTRUMENT: looks BELOW the ev=0.02 censoring wall; its own PnL is expected to be bad; PREREG_lowmargin review 09-24)",
+      "paper": true,
+      "online": true,
+      "balance": 107.96,
+      "net_value": 107.96,
+      "pnl": 7.96,
+      "n_closed": 701,
+      "win_rate": 78.7
+    },
+    {
+      "name": "PB \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (no fill model; only 3 of 15 recent fills had size behind them). Compare PB vs PC, never their Net \u00b7 pick-best-in-cycle ON (ranks by ev; A/B vs PC; PREREG_pickbest review 10-05)",
+      "paper": true,
+      "online": true,
+      "balance": 105.97,
+      "net_value": 105.97,
+      "pnl": 5.97,
+      "n_closed": 63,
+      "win_rate": 76.2
+    },
+    {
+      "name": "PC \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (no fill model; 7 of 15 recent fills obtainable). It is PB\u2019s control, not a strategy \u00b7 pick-best CONTROL (first-to-fire; born same minute as PB)",
+      "paper": true,
+      "online": true,
+      "balance": 109.95,
+      "net_value": 109.95,
+      "pnl": 9.95,
+      "n_closed": 61,
+      "win_rate": 83.6
+    },
+    {
+      "name": "03 \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (its +$274 is 100% unobtainable; fillable trades LOST $78). Kept as the permissive data collector \u00b7 5m Lazarus-WIDE \ud83d\udd2c (PAPER data-collection: wide gates so the threshold surface is sweepable offline)",
+      "paper": true,
+      "online": true,
+      "balance": 419.82,
+      "net_value": 419.82,
+      "pnl": 308.96,
+      "n_closed": 4779,
+      "win_rate": 77.5
+    }
+  ]
+}

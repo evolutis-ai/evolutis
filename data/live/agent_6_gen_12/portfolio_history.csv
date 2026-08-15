@@ -1,0 +1,3 @@
+timestamp,step,portfolio_value,buyhold_value,cash_balance,positions_value,unrealized_pnl,total_trades,winning_trades,losing_trades
+2026-02-08T02:01:45.352331,0,10000.0,9995.819681907937,10000.0,0.0,0.0,0,0,0
+2026-02-08T02:02:37.327281,1,10000.0,9997.870630648931,10000.0,0.0,0.0,0,0,0
