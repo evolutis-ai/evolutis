@@ -1,0 +1,42 @@
+{
+  "updated_utc": "2026-09-26T21:25:22+00:00",
+  "live_net": 50.93,
+  "live_pnl": 20.17,
+  "live_wallet_delta": 20.17,
+  "paper_net": 412.64,
+  "paper_pnl": 212.64,
+  "total_net": 50.93,
+  "total_pnl": 20.17,
+  "bots": [
+    {
+      "name": "BAND \ud83d\udcb0 LIVE \u2014 maker, 2c under fair, band 0.60-0.90",
+      "paper": false,
+      "online": true,
+      "balance": 50.93,
+      "net_value": 50.93,
+      "pnl": 20.17,
+      "n_closed": 20,
+      "win_rate": 85.0
+    },
+    {
+      "name": "W15 \ud83d\udd2c 15m MEASUREMENT ARM (PAPER) \u2014 is the -0.069/trade of 5m a property of 5m, or of TAKING? Permissive collector gates at window_secs=900, timing scaled 3x, honest recal. Option 7 could NOT be answered from history: only 171 rows of every 15m arm ever run logged size_at_ask. NOT a hypothesis - read it with the within-price screen.",
+      "paper": true,
+      "online": true,
+      "balance": 109.94,
+      "net_value": 109.94,
+      "pnl": 9.94,
+      "n_closed": 1200,
+      "win_rate": 77.4
+    },
+    {
+      "name": "LOWM \u26a0\ufe0fOPTIMISTIC FILLS \u2014 Net is NOT money (no fill model). It is an INSTRUMENT for the ev wall, its own PnL is not the point \u00b7 5m margin 0.005 (INSTRUMENT: looks BELOW the ev=0.02 censoring wall; its own PnL is expected to be bad; PREREG_lowmargin review 09-24)",
+      "paper": true,
+      "online": true,
+      "balance": 302.7,
+      "net_value": 302.7,
+      "pnl": 202.7,
+      "n_closed": 2980,
+      "win_rate": 79.9
+    }
+  ]
+}
